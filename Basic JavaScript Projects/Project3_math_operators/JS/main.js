@@ -33,13 +33,17 @@ function negation_operator() { //function for negation operator
     document.getElementById("negOp").innerHTML = -x;
 }
 
-var c = 5; //increment operator
-c++;
-document.write(c);
+function increment_operator() { //function for increment operator
+    var c = 5;
+    c++;
+    document.getElementById("incrOp").innerHTML = c++;
+}
 
-var d = 29;//decrement operator
-d--;
-document.write(d);
+function decrement_operator() { //function for decrement operator
+    var d = 29;
+    d--;
+    document.getElementById("decrOp").innerHTML = d--;
+}
 
 window.alert(Math.random() * 100);
 
@@ -48,6 +52,3 @@ function math_object() { //function for math method
     document.getElementById("objectMethod").innerHTML = k ;
 }
 
-
-
-document.getElementById('p1').innerHTML = Math.sqrt(25);
