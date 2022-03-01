@@ -9,3 +9,4 @@ function first_dictionary() { //defining our first dictions as a function
     delete Animal.Sound;//deleting animal sounds key from library
     document.getElementById("Dictionary").innerHTML = Animal.Sound; //linking dictionary output to html file
 }
+
