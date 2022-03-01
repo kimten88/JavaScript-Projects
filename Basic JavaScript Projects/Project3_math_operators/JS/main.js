@@ -52,3 +52,13 @@ function math_object() { //function for math method
     document.getElementById("objectMethod").innerHTML = k ;
 }
 
+function my_Dictionary() {
+    var Animal = {
+        Species: "Dog",
+        Color: "Black",
+        Breed: "Labrador",
+        Age: 5,
+        Sound: "Bark!"
+    };
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+}
