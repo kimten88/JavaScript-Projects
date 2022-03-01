@@ -82,3 +82,5 @@ function not_Function() {
 function not_true_Function() {
     document.getElementById("trueNot").innerHTML = "5 is not greater than 10: " + !(5 > 10); //Not function true
 }
+
+
