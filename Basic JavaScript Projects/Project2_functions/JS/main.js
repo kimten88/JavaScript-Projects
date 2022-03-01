@@ -21,3 +21,4 @@ function My_Third_Function() { //new function
     sentence += "statment here. "; //adding new concatenated operator
     document.getElementById("Concatenate").innerHTML = sentence; //communicates the sentance to the html id
 }
+
