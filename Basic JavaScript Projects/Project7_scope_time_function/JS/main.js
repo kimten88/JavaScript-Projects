@@ -21,7 +21,7 @@ Add_numbers_2();
 
 function Add_numbers_1() {
     var x = 10; 
-    console.log(15 + x);
+    console.log(one + x);//added "one" instead of 1 to be debugged in console in dev tools 
 }
 function Add_numbers_2() {
     console.log(x + 100);
