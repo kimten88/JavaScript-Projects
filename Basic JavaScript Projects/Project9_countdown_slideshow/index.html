@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer src="JS/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    </head>
+
+    <body>
+        
+
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="" /> <!--Allows user to input the number of seconds-->
+        <button onclick="countdown()">Click here</button> <!--activates countdown-->
+        <p id="timer"></p> <!-- displays active countdown-->
+    
+        <!--Slideshow Container -->
+        <div class="slideshow-container"> 
+            
+
+            <!-- Full-width images w/number & caption text -->
+            <div class="mySlides fade">
+        
+                <div class="numbertext">1 / 3</div><!-- Sourcing and labling Photo 1-->
+                <img src="Photos/Cats1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div><!-- Sourcing and labling Photo 2-->
+                <img src="Photos/Cats2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade"> <!-- Sourcing and labling Photo 3-->
+                <div class="numbertext">3 / 3</div>
+                <img src="Photos/Cats3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!--clickable transitions from one slide to another-->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> <!-- put dots under photos linking to other photos-->
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
