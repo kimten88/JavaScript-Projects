@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+    
+        <script>
+            $(document).ready(function() {
+                $("html").append(//applies to the when html tag
+                    "<body>\
+                        <div id='container'>\
+                            <div id='inner'>\
+                                <h1>Basic jQuery</h1>\
+                                <p id='1'>Paragraph 1</p>\
+                                <p id='2'>Paragraph 2</p>\
+                                <p id='3'>Paragraph 3</p>\
+                                <p id='4'>Paragraph 4</p>\
+                            </div>\
+                        </div>\
+                    </body>"
+                );
+                $("#2").css({"color":"red"});//changes the color to red
+                $('#3').click(function(){//hids heading when paragraph 3 is clicked
+                    $('h1').hide();
+                });
+                $("#1").click(function () { //displays alert in console log
+                    console.log("How dare you!");
+                });
+                $('#4').hide(2000); //hides paragraph 4 after 2 seconds
+                
+            });
+        </script>
+
+
+
+
+
+
+  
+</html>
